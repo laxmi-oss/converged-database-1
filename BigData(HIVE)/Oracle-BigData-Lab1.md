@@ -27,7 +27,7 @@ INNER JOIN customer_hive_ext c on c.customer_id=o.customer_id inner join
 products_ext_hive p on oi.product_id=p.product_id where c.FULL_NAME='Dale Hughes';
 </copy>
 ````
-![](./images/IMG4.PNG " ")
+![](./Images/IMG4.PNG " ")
 
 
 <br>
@@ -54,7 +54,7 @@ sqlplus apphdfs/apphdfs@orclpdb
 select * from orders_ext_hive o INNER JOIN customer_hive_ext c on o.customer_id=c.customer_id inner join stores_ext_hive s on s.store_id=o.store_id;
 </copy>
 ````
-![](./images/IMG5.PNG)
+![](./Images/IMG5.PNG)
 
 
 <br>
@@ -84,4 +84,4 @@ products_ext_hive p on oi.product_id=p.product_id where p.product_id=19;
 </copy>
 ````
 
-![](./images/IMG6.PNG)
+![](./Images/IMG6.PNG)
