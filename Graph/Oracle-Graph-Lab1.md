@@ -11,7 +11,7 @@
  </copy>
  ````
   
-![](./images/IMGG11.PNG " ") 
+![](./Images/IMGG11.PNG " ") 
 
 <br>
 **Scenario 2 : What did Dale Hughes buy?**
