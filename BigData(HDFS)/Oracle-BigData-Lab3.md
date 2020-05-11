@@ -22,4 +22,4 @@ Select * from purchase_order_info where city=’South San Francisco’;
 </copy>
 ````
 
-![](./images/IMG13.PNG)
+![](./Images/IMG13.PNG)
