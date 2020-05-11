@@ -6,7 +6,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "./../intro/intro.md"
+            "filename": "../../BigData(HDFS)/intro.md"
         },
         {         
             "title": "Env Setup",
@@ -14,7 +14,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-BigData-Setup.md"
+            "filename": "../../BigData(HDFS)/Oracle-BigData-Setup.md"
         },
         {         
             "title": "Lab1: Using Oracle Big Data SQL for Data Access in HDFS",
@@ -22,7 +22,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-BigData-Lab1.md"
+            "filename": "../../BigData(HDFS)/Oracle-BigData-Lab1.md"
         }
         
         
