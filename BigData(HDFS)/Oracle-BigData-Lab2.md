@@ -20,7 +20,7 @@ sqlplus apphdfs/apphdfs@orclpdb
 Select * from purchase_order_info where SPECIALINSTRUCTIONS=’COD’;
 </copy>
 ````
-![](./images/IMG12.PNG)
+![](./Images/IMG12.PNG)
 
  
 
