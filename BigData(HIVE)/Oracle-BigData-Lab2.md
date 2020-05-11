@@ -24,7 +24,7 @@ sqlplus apphdfs/apphdfs@orclpdb
 select * from orders_ext_hive o INNER JOIN customer_hive_ext c on o.customer_id=c.customer_id inner join stores_ext_hive s on s.store_id=o.store_id;
 </copy>
 ````
-![](./images/IMG5.PNG)
+![](./Images/IMG5.PNG)
 
  
 
