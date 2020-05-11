@@ -35,7 +35,7 @@ from PURCHASE_EXT s;
   </copy>
 ````
 
-![](./images/IMG10.PNG)
+![](./Images/IMG10.PNG)
 
 3. Query the count of all rows in **purchase order info** table
    
