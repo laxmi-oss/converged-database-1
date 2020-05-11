@@ -19,6 +19,6 @@ Select * from purchase_order_info where CUSTOMERNAME=’Alexis Bull’;
 </copy>
 ````
 
-![](./images/IMG14.PNG)
+![](./Images/IMG14.PNG)
 
 
