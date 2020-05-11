@@ -55,9 +55,9 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 
 - [Graph](https://kanikakasharma.github.io/Converged-Database/workshop/graph-freetier/)
 
--[BigDataSQL(HDFS)](https://kanikakasharma.github.io/Converged-Database/workshop/bigdatahdfs-freetier/)
+- [BigDataSQL(HDFS)](https://kanikakasharma.github.io/Converged-Database/workshop/bigdatahdfs-freetier/)
 
--[BigDataSQL(HIVE)](https://kanikakasharma.github.io/Converged-Database/workshop/bigdatahive-freetier/)
+- [BigDataSQL(HIVE)](https://kanikakasharma.github.io/Converged-Database/workshop/bigdatahive-freetier/)
 
 
 ## Product Pages
