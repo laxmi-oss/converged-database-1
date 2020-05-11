@@ -2,8 +2,10 @@
 # Oracle BigDataSQL-HIVE
 
 <br>
+
 We have already placed the dump files in the Hadoop file system for creating hive external tables. Please run below commands for listing the dump files in Hadoop file system.
-</br>
+
+
 ````
 <copy>
 hdfs dfs -ls /data/customer/dump/
@@ -59,7 +61,7 @@ CREATE EXTERNAL TABLE customers_ext_hive
    LOCATION '/data/customer/dump';
 </copy>
 ````
-![](./images/IMG1.PNG " ")
+![](./Images/IMG1.PNG " ")
 
 3. Create external table orders ext hive
 ````
@@ -117,7 +119,7 @@ select * from customers_ext_hive where FULL_NAME='Victor Morris';
 select * from orders_ext_hive;
 </copy>
 ````
-![](./images/IMG2.PNG " ")
+![](./Images/IMG2.PNG " ")
 
 
 **Query from Oracle Database External table created with ORACLE_HIVE driver:**
@@ -160,7 +162,7 @@ CREATE TABLE apphdfs.customer_hive_ext
 Select * from customer_hive_ext where FULL_NAME=’Zavert Zimmer’;
 </copy>
 ````
-![](./images/IMG3.PNG " ")
+![](./Images/IMG3.PNG " ")
 
 4. Create product ext table 
 ````
