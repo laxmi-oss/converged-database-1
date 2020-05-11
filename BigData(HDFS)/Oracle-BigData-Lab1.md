@@ -49,7 +49,7 @@ from PURCHASE_EXT s;
     Select count(*) from purchase_order_info;
     </copy>
 ````
-![](./images/IMG11.PNG)    
+![](./Images/IMG11.PNG)    
 
 
 <br>
@@ -72,7 +72,7 @@ sqlplus apphdfs/apphdfs@orclpdb
 Select * from purchase_order_info where SPECIALINSTRUCTIONS=’COD’;
 </copy>
 ````
-![](./images/IMG12.PNG)
+![](./Images/IMG12.PNG)
 
 <br>
 
@@ -96,7 +96,7 @@ Select * from purchase_order_info where city=’South San Francisco’;
 </copy>
 ````
 
-![](./images/IMG13.PNG)
+![](./Images/IMG13.PNG)
 
 
 <br>
@@ -118,7 +118,7 @@ Select * from purchase_order_info where CUSTOMERNAME=’Alexis Bull’;
 </copy>
 ````
 
-![](./images/IMG14.PNG)
+![](./Images/IMG14.PNG)
 
 
 
