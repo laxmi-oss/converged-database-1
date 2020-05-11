@@ -44,7 +44,7 @@ Supplier<GraphConfig> pgxConfig = () -> { return GraphConfigBuilder.forPropertyG
 </copy>
 ````
  
-![](./images/IMGG16.PNG)
+![](./Images/IMGG16.PNG)
 
 Load the graph. This can 10-15 minutes or more depending on network bandwidth
 
@@ -65,7 +65,7 @@ session.queryPgql("select s.STORE_NAME from oe_sample_graph match (c:CUSTOMERS)-
 </copy>
 ````
  
-![](./images/IMGG17.PNG)
+![](./Images/IMGG17.PNG)
 
 <br>
 **Scenario 2 : what products did customer 202 buy?**
@@ -76,7 +76,7 @@ session.queryPgql("select s.STORE_NAME, o.ORDER_ID, p.PRODUCT_NAME from oe_sampl
 </copy>
 ````
  
-![](./images/IMGG18.PNG)
+![](./Images/IMGG18.PNG)
 
 
 <br>
@@ -88,7 +88,7 @@ session.queryPgql("Select c.CUSTOMER_ID, c.FULL_NAME from oe_sample_graph match 
 </copy>
 ````
  
-![](./images/IMGG19.PNG)
+![](./Images/IMGG19.PNG)
 
 
 <br>
@@ -100,7 +100,7 @@ session.queryPgql("select c2.FULL_NAME, p2.PRODUCT_NAME from oe_sample_graph mat
 </copy>
 ````
  
-![](./images/IMGG20.PNG)
+![](./Images/IMGG20.PNG)
 
 
 <br>
@@ -113,7 +113,7 @@ session.queryPgql(qStr).print().close();
 </copy>
 ````
  
-![](./images/IMGG21.PNG)
+![](./Images/IMGG21.PNG)
 
 
  
