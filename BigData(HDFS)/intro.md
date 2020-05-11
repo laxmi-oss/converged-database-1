@@ -42,7 +42,7 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 
 - **Authors/Contributors** - Arvind Bhope,Venkata Bandaru,Ashish Kumar,Priya Dhuriya ,Maniselvan K.
 
-- **Last Updated By/Date** - Laxmi A, kanika Sharma May 2020
+- **Last Updated By/Date** - Laxmi A, Kanika Sharma May 2020
 
 - **Workshop Expiration Date**
 
