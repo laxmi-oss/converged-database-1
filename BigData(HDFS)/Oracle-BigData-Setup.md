@@ -79,7 +79,9 @@ hdfs dfs -ls /data/jsondoc/
 
 Since data in the Hadoop HDFS file system is stored in an undetermined format, SQL queries require some constructs to parse and interpret data for it to be processed in rows and columns. Oracle Big Data SQL leverages available Hadoop constructs to accomplish this, notably InputFormat and SerDe Java classes, optionally through Hive metadata definitions. The Oracle Big Data SQL processing cells on the DataNodes are a layer on top of this generic Hadoop infrastructure. Three key features provided by the cells are Smart Scan, Storage Indexes, and Aggregation Offload.
 
+
 Oracle Big Data SQL provides external tables with next generation performance gains. An external table is an Oracle Database object that identifies and describes the location of data outside of a database. You can query an external table using the same SQL SELECT syntax that you use for any other database tables. 
+
 
 1. Connect to **Database**
    ````
@@ -92,21 +94,21 @@ Oracle Big Data SQL provides external tables with next generation performance ga
    <copy>
    CREATE TABLE apphdfs.PURCHASE_EXT (
     doc varchar2(4000)
- )
+    )
    ORGANIZATION EXTERNAL
     ( TYPE ORACLE_HDFS
       DEFAULT DIRECTORY DEFAULT_DIR
       LOCATION ('/data/jsondoc')
     )
-REJECT LIMIT UNLIMITED;
+   REJECT LIMIT UNLIMITED;
    </copy>   
    ````
 
-   ![](./images/IMG15.PNG " ")
+   ![](./Images/IMG15.PNG " ")
 
    ORACLE HDFS Enables you to create Oracle external tables directly over files stored in HDFS. This access driver uses Hive syntax to describe a data source, assigning default column names of COL 1, COL 2, and so forth. You do not need to create a Hive table manually as a separate step.
 
-   ![](./images/IMG16.PNG " ")
+   ![](./Images/IMG16.PNG " ")
 
 3. Use **Oracle dot notation JSON** syntax to parse the data
 ````
@@ -134,7 +136,7 @@ s.doc."Special Instructions" as SpecialInstructions
 from PURCHASE_EXT s;
 </copy>
 ````
-![](./images/IMG17.PNG " ")
+![](./Images/IMG17.PNG " ")
 
 
 
