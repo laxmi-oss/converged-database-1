@@ -102,11 +102,11 @@ REJECT LIMIT UNLIMITED;
    </copy>   
    ````
 
-   ![](./images/IMG15.PNG " ")
+   ![](./Images/IMG15.PNG " ")
 
    ORACLE HDFS Enables you to create Oracle external tables directly over files stored in HDFS. This access driver uses Hive syntax to describe a data source, assigning default column names of COL 1, COL 2, and so forth. You do not need to create a Hive table manually as a separate step.
 
-   ![](./images/IMG16.PNG " ")
+   ![](./Images/IMG16.PNG " ")
 
 3. Use **Oracle dot notation JSON** syntax to parse the data
 ````
@@ -134,7 +134,7 @@ s.doc."Special Instructions" as SpecialInstructions
 from PURCHASE_EXT s;
 </copy>
 ````
-![](./images/IMG17.PNG " ")
+![](./Images/IMG17.PNG " ")
 
 
 
