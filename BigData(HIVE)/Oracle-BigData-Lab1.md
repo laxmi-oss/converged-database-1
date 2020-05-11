@@ -9,6 +9,7 @@
 
 <br>
 1. Connect to Database
+
 ````
 <copy>
 . oraenv
