@@ -6,7 +6,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "./../intro/intro.md"
+            "filename": "../../Graph/intro.md"
         },
         {         
             "title": "Brief note on Property Graph",
@@ -14,7 +14,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-PropertyGraph.md"
+            "filename": "../../Graph/Oracle-Graph-PropertyGraph.md"
         },
         {         
             "title": "Property Graph  Environment setup",
@@ -22,7 +22,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-Setup.md"
+            "filename": "../../Graph/Oracle-Graph-Setup.md"
         },
         {         
             "title": "Lab:1 Defining Graph",
@@ -30,7 +30,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-Define.md"
+            "filename": "../../Graph/Oracle-Graph-Define.md"
         },
         {         
             "title": "Lab:2 Querying graph via PGQL",
@@ -38,7 +38,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-Lab1.md"
+            "filename": "../../Graph/Oracle-Graph-Lab1.md"
         },
         {         
             "title": "Lab:3 Loading the Graph into memory and Querying graph",
@@ -46,7 +46,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-Lab6.md"
+            "filename": "../../Graph/Oracle-Graph-Lab6.md"
         },
         {         
             "title": "Lab:4 Graph Visualization",
@@ -54,7 +54,7 @@
             "partnumber": "Ennnnn_01",
             "publisheddate": "03/10/2020",
             "contentid": "12nnnn",
-            "filename": "../Labs/Oracle-Graph-Lab3.0.md"
+            "filename": "../../Graph/Oracle-Graph-Lab3.0.md"
         }
         
 
