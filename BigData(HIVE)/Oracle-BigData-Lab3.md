@@ -27,4 +27,4 @@ products_ext_hive p on oi.product_id=p.product_id where p.product_id=19;
 </copy>
 ````
 
-![](./images/IMG6.PNG)
+![](./Images/IMG6.PNG)
