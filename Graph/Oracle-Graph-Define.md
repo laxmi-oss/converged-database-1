@@ -41,7 +41,7 @@ Get a PgqlConnection that will run PGQL queries directly against the VT$ (vertex
 var pgql = PgqlConnection.getConnection(conn);
 </copy>
 ````
-![](./images/IMGG5.PNG) 
+![](./Images/IMGG5.PNG) 
 
 Create the required views first for the use of orders and order_items as multiple edge tables. Execute these in sqlplus :
 
@@ -56,7 +56,7 @@ Create or replace view po_edge as select * from order_items;
 </copy>
 ````
 
-![](./images/IMGG6.PNG) 
+![](./Images/IMGG6.PNG) 
 
 We will use a property graph query language (PGQL  http://pgql-lang.org) DDL to define and populate the graph.  The statement is as follows:
 
@@ -126,7 +126,7 @@ The graph itself is stored in a set of tables named
 ````
 <graph_name>VT$, <graph_name>GE$, <graph_name>IT$, <graph_name>SS$, and <graph_name>GT$. 
 ````
-![](./images/IMGG7.PNG) 
+![](./Images/IMGG7.PNG) 
 
 The important ones are the ones that store the vertices (OE SAMPLE GRAPHVT$) and edges (OE SAMPLE GRAPHGE$).
 
@@ -227,7 +227,7 @@ Find the edge labels. We used labels here to tag an edge with a relationship typ
 query.accept("select distinct label(e) from oe_sample_graph match ()-[e]->(m)");
 </copy>
 ````
-![](./images/IMGG8.PNG) 
+![](./Images/IMGG8.PNG) 
 
 Find the vertex labels. We used labels here to tag a vertex as an entity type.
 
@@ -236,7 +236,7 @@ Find the vertex labels. We used labels here to tag a vertex as an entity type.
 query.accept("select distinct label(v) from oe_sample_graph match (v)") ;
 </copy>
 ````
-![](./images/IMGG9.PNG) 
+![](./Images/IMGG9.PNG) 
 
 How many Customers are there?
 
@@ -245,7 +245,7 @@ How many Customers are there?
 query.accept("select count(v) from oe_sample_graph match (v:CUSTOMERS)");
 </copy>
 ````
-![](./images/IMGG10.PNG) 
+![](./Images/IMGG10.PNG) 
 
 
 
