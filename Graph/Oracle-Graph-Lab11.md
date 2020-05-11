@@ -11,7 +11,7 @@ session.queryPgql(qStr).print().close();
 </copy>
 ````
  
-![](./images/IMGG21.PNG)
+![](./images/IMGG21.PNG " " )
 
  
  
