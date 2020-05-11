@@ -23,7 +23,7 @@ query.accept(
 </copy>
 ````
  
-![](./images/IMGG12.PNG)
+![](./Images/IMGG12.PNG)
 
 <br>
 
@@ -36,7 +36,7 @@ query.accept(
  </copy>
  ````
   
-![](./images/IMGG13.PNG " ") 
+![](./Images/IMGG13.PNG " ") 
 
 
 <br>
@@ -48,7 +48,7 @@ query.accept("select c.FULL_NAME, op.QUANTITY from oe_sample_graph match (c)-[co
 </copy>
 ````
  
-![](./images/IMGG14.PNG)
+![](./Images/IMGG14.PNG)
 
 
 <br>
@@ -71,6 +71,6 @@ query.accept(qStr);
 </copy>
 ````
  
-![](./images/IMGG15.PNG)
+![](./Images/IMGG15.PNG)
 
 
