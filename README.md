@@ -53,7 +53,7 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 - [XML](https://laxmi-oss.github.io/converged-Database/workshops/xml-freetier/)
 - [SPATIAL](https://laxmi-oss.github.io/converged-Database/workshops/spatial-freetier/)
 
-- [Graph](https://kanikakasharma.github.io/converged-Database/workshop/graph-freetier/)
+- [Graph](https://kanikakasharma.github.io/converged-database/workshop/graph-freetier/)
 
 - [BigDataSQL(HDFS)](https://kanikakasharma.github.io/converged-Database/workshop/bigdatahdfs-freetier/)
 
