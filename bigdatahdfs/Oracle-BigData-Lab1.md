@@ -1,0 +1,125 @@
+
+# Oracle BigDataSQL-HDFS
+<br>
+
+**Want to load the data into Oracle?  Perform some simple ETL**
+
+
+1. Connect to **database**
+   ````
+   <copy>
+   sqlplus apphdfs/apphdfs@orclpdb
+   </copy>
+   ````
+
+2. Create **Table**
+````
+   <copy>
+create table purchase_order_info as
+select s.doc.PONumber,
+s.doc.Reference,
+s.doc.Requestor,
+s.doc.CostCenter,
+s.doc.ShippingInstructions.name as CustomerName,
+s.doc.ShippingInstructions.Address.street as Street,
+s.doc.ShippingInstructions.Phone.type as PhoneType,
+s.doc.ShippingInstructions.Address.city as City,
+s.doc.ShippingInstructions.Address.state as State,
+s.doc.ShippingInstructions.Address.zipCode as Zipcode,
+s.doc.ShippingInstructions.Address.country as Country,
+s.doc.LineItems.Part.Description as ProductDescription,
+s.doc.LineItems.Part.UPCCode as UPCCode,
+s.doc.LineItems.Part.UnitPrice as UnitPrice,
+s.doc."Special Instructions" as SpecialInstructions 
+from PURCHASE_EXT s;
+  </copy>
+````
+
+![](./images/IMG10.PNG)
+
+3. Query the count of all rows in **purchase order info** table
+   
+````
+    <copy>
+    sqlplus apphdfs/apphdfs@orclpdb
+    </copy>
+````
+````
+    <copy>
+    Select count(*) from purchase_order_info;
+    </copy>
+````
+![](./images/IMG11.PNG)    
+
+
+<br>
+
+**Products with mode of purchase is COD**
+
+
+
+
+
+1. Connect to **Database**
+````
+<copy>
+sqlplus apphdfs/apphdfs@orclpdb
+</copy>
+````
+2. List purchase information of orders where mode of payments is **COD**
+````
+<copy>
+Select * from purchase_order_info where SPECIALINSTRUCTIONS=’COD’;
+</copy>
+````
+![](./images/IMG12.PNG)
+
+<br>
+
+**Products ordered from a specific GEO location**
+
+
+
+
+1. Connect to **Database**
+
+````
+<copy>
+sqlplus apphdfs/apphdfs@orclpdb
+</copy>
+````
+
+2. Query to get product infomation from specific **GEO location** 
+````
+<copy>
+Select * from purchase_order_info where city=’South San Francisco’;
+</copy>
+````
+
+![](./images/IMG13.PNG)
+
+
+<br>
+**Customer purchase history details**
+
+
+
+1. Connect to **Database**
+````
+<copy>
+sqlplus apphdfs/apphdfs@orclpdb
+</copy>
+````
+
+2. Query to get customer's **purchase history**
+````
+<copy>
+Select * from purchase_order_info where CUSTOMERNAME=’Alexis Bull’;
+</copy>
+````
+
+![](./images/IMG14.PNG)
+
+
+
+
