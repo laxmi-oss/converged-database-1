@@ -49,9 +49,15 @@ If you don't have an Oracle Cloud account then you can quickly and easily sign u
 Click here to request your trial account: [https://www.oracle.com/cloud/free](https://www.oracle.com/cloud/free)
 
 ## Workshops
-- [JSON](http://127.0.0.1:5500/freetier/JSON/freetier/index.html?lab=introduction-overview)
-- [XML](http://127.0.0.1:5500/freetier/XML/freetier/index.html?lab=introduction-overview)
-- [SPATIAL](http://127.0.0.1:5500/freetier/SPATIAL/freetier/index.html?lab=introduction-overview)
+- [JSON](https://laxmi-oss.github.io/converged-Database/workshops/json-freetier/)
+- [XML](https://laxmi-oss.github.io/converged-Database/workshops/xml-freetier/)
+- [SPATIAL](https://laxmi-oss.github.io/converged-Database/workshops/spatial-freetier/)
+
+- [Graph](https://kanikakasharma.github.io/converged-database/workshop/graph-freetier/)
+
+- [BigDataSQL(HDFS)](https://kanikakasharma.github.io/converged-database/workshop/bigdatahdfs-freetier/)
+
+- [BigDataSQL(HIVE)](https://kanikakasharma.github.io/converged-database/workshop/bigdatahive-freetier/)
 
 
 ## Product Pages
