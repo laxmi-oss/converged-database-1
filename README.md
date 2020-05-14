@@ -1,5 +1,5 @@
 
-##Sample
+
 [](../../ssworkshop/manifest.json)
 
 # Workshop Introduction and Overview
