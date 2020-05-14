@@ -1,6 +1,6 @@
 
 
-[](../../ssworkshop/manifest.json)
+[](../ssworkshop/manifest.json)
 
 # Workshop Introduction and Overview
 
