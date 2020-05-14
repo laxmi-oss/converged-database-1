@@ -64,7 +64,8 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 - [Oracle Database 19c](https://www.oracle.com/database/)
 
 ##Sample
-"../../ssworkshop/manifest.json"
+[](../../ssworkshop/manifest.json)
+
 
 
 
