@@ -3,6 +3,43 @@
 
 <br>
 
+**Querying graph via PGQL**
+
+Below are some of the examples where we can query against the graph we created using PGQL:
+
+Find the edge labels. We used labels here to tag an edge with a relationship type
+
+````
+<copy>
+query.accept("select distinct label(e) from oe_sample_graph match ()-[e]->(m)");
+</copy>
+````
+
+![](./images/g3.png " ") 
+
+Find the vertex labels. We used labels here to tag a vertex as an entity type.
+````
+<copy>
+query.accept("select distinct label(v) from oe_sample_graph match (v)") ;
+</copy>
+````
+![](./images/g4.png " ") 
+
+
+How many Customers are there?
+
+````
+<copy>
+query.accept("select count(v) from oe_sample_graph match (v:CUSTOMERS)");
+</copy>
+````
+
+![](./images/g5.png " ") 
+
+
+Lets look at some of the examples about customers and their orders. 
+
+
 **Scenario 1 : Which stores did customer with id 202 order from?**
 
  ````
@@ -72,5 +109,7 @@ query.accept(qStr);
 ````
  
 ![](./images/IMGG15.PNG)
+
+All of the above 5  queries are run against the database tables. Let’s load the graph into memory and perform that same set of PGQL queries against the in-memory graph.
 
 
