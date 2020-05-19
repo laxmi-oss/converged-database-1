@@ -58,7 +58,7 @@ Create or replace view po_edge as select * from order_items;
 
 ![](./images/IMGG6.PNG) 
 
-We will use a property graph query language (PGQL  http://pgql-lang.org) DDL to define and populate the graph.  The statement is as follows:
+We will use a property graph query language [PGQL](http://pgql-lang.org) DDL to define and populate the graph.  The statement is as follows:
 
 ````
 <copy>
@@ -163,7 +163,7 @@ Consumer<String> query = q -> { try(var s = pgql.prepareStatement(q)) { s.execut
 
 **A very brief note on PGQL**
 
-The pgql-lang.org site and specification (pgql-land.org/spec/1.2) are the best reference for details and examples. For the purposes of this lab, however, here are minimal basics. 
+The pgql-lang.org site and specification [Link](pgql-land.org/spec/1.2) are the best reference for details and examples. For the purposes of this lab, however, here are minimal basics. 
 
 The general structure of a PGQL query is
 
