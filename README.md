@@ -63,6 +63,8 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 
 - [BigDataSQL(HIVE)](https://kanikakasharma.github.io/converged-database/workshop/bigdatahive-freetier/)
 
+-[Crossdatatype](https://kanikakasharma.github.io/converged-database/workshop/crossdatatype-freetier/) 
+
 
 ## Product Pages
 - [Oracle Database 19c](https://www.oracle.com/database/)
