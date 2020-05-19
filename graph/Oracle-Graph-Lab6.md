@@ -115,6 +115,22 @@ session.queryPgql(qStr).print().close();
  
 ![](./images/IMGG21.PNG)
 
+It is required to have the graph loaded into memory and published before visualizing it. So before moving to the next lab , please make sure Lab-2 and Lab -3 are completed.
+
+So, our graph is loaded into the memory, let’s publish it 
+
+**Publish the oe sample graph**
+
+````
+<copy>
+graph.publish(VertexProperty.ALL, EdgeProperty.ALL) ;
+</copy>
+````
+
+![](./images/g6.png)
+
+
+
 
  
  
