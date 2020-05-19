@@ -14,7 +14,7 @@ A first cut at a graph model simply examines the primary key/foreign key relatio
 In this instance the Vertex (or Node) entities are CUSTOMERS, ORDERS, STORES, and PRODUCTS. 
 While the Edge(s) are CUSTOMER ORDERED (from CUSTOMERS to ORDERS), ORDERED BY (the reverse edge from ORDERS to CUSTOMERS), ORDERED FROM STORE (ORDERS to STORES), STORE GOT ORDER (STORES to ORDERS), ORDER HAS PRODUCT (ORDERS to PRODUCTS), and PRODUCT IN ORDER (PRODUCTS to ORDERS)
 
-Make a JDBC connection to the database:
+At the jshell prompt , Make a JDBC connection to the database:
 
 ````
 <copy>
@@ -179,87 +179,11 @@ WHERE (condition)
 PGQL provides a specific construct known as the MATCH clause for matching graph patterns. A graph pattern matches vertices and edges that satisfy the given conditions and constraints. 
 () indicates a vertex variable
 
--- an undirected edge, as in (source)-(dest)
+  -an undirected edge, as in (source)-(dest)
 
 -> an outgoing edge from source to destination
 
 <- an incoming edge from destination to source
 
 []  indicates an edge variable
-
-So
-````
-SELECT v FROM OE_SAMPLE_GRAPH MATCH (v)->(o)
-````
-will return vertices that have outgoing edges which would be all 2410 of them for this graph.
-
-The id() and label() functions return the value of the id or label or the vertex or edge.
-
-````
-SELECT distinct label(v) FROM OE_SAMPLE MATCH (v)
-````
-returns the labels for the vertices.
-
-while
-````
-SELECT distinct label(e) FROM OE_SAMPLE_GRAPH MATCH ()-[e]->()
-````
-returns the labels for the edges
-
-The labels can be used to constrain the vertices or edges that satisfy a query. For example
-
-````
-SELECT count(v) FROM OE_SAMPLE_GRAPH MATCH (v:CUSTOMERS) 
-````
-returns the number of vertices that are the label value “CUSTOMERS”. 
-
-Similarly
-
-````
-[e:CUSTOMER_ORDERED] or [:CUSTOMER_ORDERED] 
-````
-will only match edges from CUSTOMERS to ORDERS. 
-
-Find the edge labels. We used labels here to tag an edge with a relationship type
-
-````
-<copy>
-query.accept("select distinct label(e) from oe_sample_graph match ()-[e]->(m)");
-</copy>
-````
-![](./images/IMGG8.PNG) 
-
-Find the vertex labels. We used labels here to tag a vertex as an entity type.
-
-````
-<copy>
-query.accept("select distinct label(v) from oe_sample_graph match (v)") ;
-</copy>
-````
-![](./images/IMGG9.PNG) 
-
-How many Customers are there?
-
-````
-<copy>
-query.accept("select count(v) from oe_sample_graph match (v:CUSTOMERS)");
-</copy>
-````
-![](./images/IMGG10.PNG) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
