@@ -2,7 +2,44 @@
 # Oracle Graph 
 
 <br>
+
+**Property Graph Prerequisites:**
+
+The requirements for using the property graph features are the following.
+
+•	The Oracle Graph Server and Graph Client must be installed.
+
+•	max string size must be enabled.
+
+•	AL16UTF16 (instead of UTF8) must be specified as the NLS NCHAR CHARACTERSET.
+
+•	AL32UTF8 (UTF8) should be the default character set,  but  AL16UTF16 must be the NLS NCHAR CHARACTERSET.
+
+
+**Oracle Graph Server and Client:**
+
+It is a software package for use with the Property Graph feature of Oracle Database. Oracle Graph Server and Client includes the high speed in-memory analytics server (PGX) and client libraries required for graph applications.
+
+Oracle Graph Client: A zip file containing Oracle Graph Client.
+
+Oracle Graph Server: An rpm file containing an easy to deploy Oracle Graph Server.
+
+**Note:** Graph client and Sever installation is completed and the setup is ready for use.
+
+**Interactive Graph Shell**
+
+Both the Oracle Graph server and client packages contain an interactive command-line application for interacting with all the Java APIs of the product, locally or on remote computers.
+
+This interactive graph shell dynamically interprets command-line inputs from the user, executes them by invoking the underlying functionality, and can print results or process them further.
+
+This graph shell is implemented on top of the Java Shell tool (JShell).
+
+The graph shell automatically connects to a PGX instance (either remote or embedded depending on the --base_url command-line option) and creates a PGX session.
+
+
 **Connect to Graph Client**
+
+For connecting to graph server, ssh to the instance and perform below steps as <graphuser> 
 
 **Steps:**
 
