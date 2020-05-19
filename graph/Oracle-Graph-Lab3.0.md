@@ -4,6 +4,8 @@
 <br>
 **Visualize the Graph**
 
+We will use the Graph Visualization component to run some PGQL queries and visualize the results as a graph instead of a tabular result.
+
 GraphViz should be accessible at host:7007/ui
 
 The principal points of entry for the GraphViz application are the query editor and the graph lists.
