@@ -9,7 +9,9 @@ Oracle’s converged, multi-model database natively supports graphs and delivers
 
 Oracle’s mission is to help people see data in new ways, discover insights, and unlock endless possibilities.  Graph analysis is about understanding relationships and connections in data, and detecting patterns that identify new insights. With Oracle’s Graph offerings developers can use a comprehensive suite of graph query and analytics tools to integrate graphs into applications on enterprise grade data management infrastructure.
 
-For example, graph algorithms can identify what individual or item is most connected to others in social networks or business processes.   They can identify communities, anomalies, common patterns, and paths that connect individuals or related transactions.  Every Oracle Database now includes both property graph and RDF graph data models as well as algorithms, query languages, and visualization tools.
+For example, graph algorithms can identify what individual or item is most connected to others in social networks or business processes.  They can identify communities, anomalies, common patterns, and paths that connect individuals or related transactions.
+Every Oracle Database now includes both property graph and RDF graph data models as well as algorithms, query languages, and visualization tools.
+
 
 Property Graph database includes:
 
