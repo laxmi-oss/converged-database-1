@@ -46,7 +46,7 @@ Supplier<GraphConfig> pgxConfig = () -> { return GraphConfigBuilder.forPropertyG
  
 ![](./images/IMGG16.PNG)
 
-Load the graph. This can 10-15 minutes or more depending on network bandwidth
+Load the graph. This can take 10-15 minutes or more depending on network bandwidth
 
 ````
 <copy>
