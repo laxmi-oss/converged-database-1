@@ -13,13 +13,6 @@ When you start GraphViz, the graph list will be populated with the graphs loaded
 
 Once the query is ready and the desired graph is selected, click Run to execute the query.
 
-**Publish the oe sample graph**
-
-````
-<copy>
-graph.publish(VertexProperty.ALL, EdgeProperty.ALL) ;
-</copy>
-````
 
 <br>
 **Scenario 1 : What products did customer 202 buy from which store(s)?**
