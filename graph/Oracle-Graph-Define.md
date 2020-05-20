@@ -124,11 +124,11 @@ The Graph Server kit includes the necessary components (a server application and
 
 The graph itself is stored in a set of tables named 
 
-<graph_name>VT$
-<graph_name>GE$
-<graph_name>IT$
-<graph_name>SS$
-<graph_name>GT$. 
+(graph_name)VT$
+(graph_name)GE$
+(graph_name)IT$
+(graph_name)SS$
+(graph_name)GT$. 
 
 ![](./images/IMGG7.PNG) 
 
