@@ -28,3 +28,5 @@ The following figure illustrates a very simple property graph with two vertices 
 
 ![](./images/IMGG1.PNG) 
 
+Figure: Simple Property Graph Example
+
