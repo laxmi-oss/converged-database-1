@@ -163,17 +163,11 @@ Consumer<String> query = q -> { try(var s = pgql.prepareStatement(q)) { s.execut
 
 **A very brief note on PGQL**
 
-The pgql-lang.org site and specification [Link](pgql-land.org/spec/1.2) are the best reference for details and examples. For the purposes of this lab, however, here are minimal basics. 
+The [pgql-lang.org](pgql-lang.org) site and specification [pgql-land.org/spec/1.2](pgql-land.org/spec/1.2) are the best reference for details and examples. For the purposes of this lab, however, here are minimal basics. 
 
 The general structure of a PGQL query is
 
-SELECT (select list)
-
-FROM (graph name)
-
-MATCH (graph pattern)
-
-WHERE (condition)
+SELECT (select list) FROM (graph name) MATCH (graph pattern) WHERE (condition)
 
 
 PGQL provides a specific construct known as the MATCH clause for matching graph patterns. A graph pattern matches vertices and edges that satisfy the given conditions and constraints. 
