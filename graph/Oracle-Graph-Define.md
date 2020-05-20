@@ -18,7 +18,7 @@ At the jshell prompt , Make a JDBC connection to the database:
 
 ````
 <copy>
-var jdbcUrl ="jdbc:oracle:thin:@129.213.155.161:1530/spagrapdb";
+var jdbcUrl ="jdbc:oracle:thin:@<instance_ip_address>:<DB_Port>/<PDB_Name>";
 
 var user = "graphuser";
 
