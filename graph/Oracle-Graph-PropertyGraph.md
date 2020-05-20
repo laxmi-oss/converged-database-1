@@ -1,4 +1,3 @@
-<br>
 
 **What Are Property Graphs?** 
 
