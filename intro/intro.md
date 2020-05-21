@@ -61,6 +61,7 @@ Click here to request your trial account: [https://www.oracle.com/cloud/free](ht
 
 - [Crossdatatype](https://kanikakasharma.github.io/converged-database/workshop/crossdatatype-freetier/) 
 
+-[Node.js](https://laxmi-oss.github.io/converged-database/workshops/nodejs-freetier/)
 
 ## Product Pages
 - [Oracle Database 19c](https://www.oracle.com/database/)
