@@ -5,6 +5,7 @@
 <br>
 
 1.  Open up putty and create a new connection. Enter the IP address assigned to your instance.
+
 2.  Enter a name for the session and click Save.
  
 ![](./images/es1.png) 
